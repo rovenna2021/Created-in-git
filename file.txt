@@ -1,0 +1,10 @@
+Client:
+ Context:    default
+ Debug Mode: false
+ Plugins:
+  app: Docker App (Docker Inc., v0.9.1-beta3)
+  buildx: Docker Buildx (Docker Inc., v0.7.1-docker)
+  scan: Docker Scan (Docker Inc., v0.12.0)
+
+Server:
+ERROR: Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get "http://%2Fvar%2Frun%2Fdocker.sock/v1.24/info": dial unix /var/run/docker.sock: connect: permission denied
